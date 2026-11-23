@@ -1,0 +1,95 @@
+{
+  "environment": {
+    "python_version": "3.10.11",
+    "sklearn_version": "1.7.0",
+    "joblib_version": "1.5.1"
+  },
+  "groundwater_model": {
+    "r2_score": -0.854,
+    "rmse": 6.4526,
+    "mae": 4.6271
+  },
+  "rainfall_model": {
+    "r2_score": 0.8604,
+    "rmse": 0.2991,
+    "mae": 0.1505
+  },
+  "feature_importances": [
+    {
+      "feature": "gw_lag_1",
+      "importance": 0.5656
+    },
+    {
+      "feature": "gw_rolling_mean_14",
+      "importance": 0.3432
+    },
+    {
+      "feature": "gw_rolling_mean_7",
+      "importance": 0.0488
+    },
+    {
+      "feature": "gw_lag_14",
+      "importance": 0.0132
+    },
+    {
+      "feature": "rain_lag_1",
+      "importance": 0.013
+    },
+    {
+      "feature": "rain_lag_14",
+      "importance": 0.0067
+    },
+    {
+      "feature": "month_sin",
+      "importance": 0.0045
+    },
+    {
+      "feature": "day_of_year",
+      "importance": 0.0026
+    },
+    {
+      "feature": "gw_rolling_mean_30",
+      "importance": 0.0022
+    },
+    {
+      "feature": "temperature_c",
+      "importance": 0.0003
+    },
+    {
+      "feature": "rainfall_sum_30",
+      "importance": 0.0
+    },
+    {
+      "feature": "rainfall_sum_14",
+      "importance": 0.0
+    },
+    {
+      "feature": "rainfall_mm",
+      "importance": 0.0
+    },
+    {
+      "feature": "evaporation_mm",
+      "importance": 0.0
+    },
+    {
+      "feature": "rainfall_sum_7",
+      "importance": 0.0
+    },
+    {
+      "feature": "humidity_pct",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_cos",
+      "importance": 0.0
+    },
+    {
+      "feature": "rain_lag_7",
+      "importance": 0.0
+    },
+    {
+      "feature": "gw_lag_7",
+      "importance": 0.0
+    }
+  ]
+}
